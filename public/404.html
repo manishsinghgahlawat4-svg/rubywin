@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RubyWin</title>
+    <script>
+      // Any unknown path (e.g. /admin) falls back to the app with a hash route.
+      var path = window.location.pathname.replace(/\/+$/, "");
+      var route = /\/admin$/.test(path) ? "/admin" : "/home";
+      window.location.replace("/#" + route);
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">RubyWin emblem</title>
+  <defs>
+    <linearGradient id="ruby" x1="18" y1="18" x2="111" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff8a8f"/>
+      <stop offset=".47" stop-color="#e11d48"/>
+      <stop offset="1" stop-color="#7f1026"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="34" y1="15" x2="98" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0b1"/>
+      <stop offset=".52" stop-color="#f6c453"/>
+      <stop offset="1" stop-color="#b76a11"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <path d="M64 5 111 32v55l-47 29L17 87V32L64 5Z" fill="#270b18" stroke="url(#gold)" stroke-width="4"/>
+  <path d="m64 18 35 20v42l-35 22-35-22V38l35-20Z" fill="url(#ruby)" stroke="#ffe5a0" stroke-opacity=".7" stroke-width="2"/>
+  <path d="m64 22 17 22-17 49-17-49 17-22Z" fill="url(#gold)" opacity=".95" filter="url(#glow)"/>
+  <path d="m31 39 16 5 17 49-33-22V39Zm66 0-16 5-17 49 33-22V39Z" fill="#fff0b1" opacity=".38"/>
+  <path d="M41 29h46M35 94h58" stroke="#fff0b1" stroke-opacity=".68" stroke-width="2"/>
+</svg>
